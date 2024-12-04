@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>משימה</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+            <nav></nav>
+            <div class="main-layout">
+                <aside></aside>
+                <div class="main-content">
+                    <div class="bread-crumbs" role="navigation" aria-label="פירורי לחם"></div>
+                    <div class="nav-buttons" role="navigation" ></div>
+                    
+                    <div class="page-marking">
+                        <img href="#" role="button" id="marking-icon" src="/images/Path_416.svg" alt=""/>
+                        <span>סימון דף זה</span>
+                    </div>    
+                    <section class="video-container">
+                        <iframe width="800" height="442" src="https://www.youtube.com/embed/gVUR8BPf0Qo?si=I9tMCHyWBkqtRG0W" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                        <div class="youtube-icons">
+                            <img role="button" src="/images/icon_plus.svg" class="add-to-list" alt="הוסף לרשימה"/>
+                            <img role="button" src="/images/icon_forward.svg" class="forward" alt="העברה"/>
+                            <div class="like-btn soft-scale-icon">
+                                <h5 id="randomNumber-1">0</h5>
+                                <img role="button" src="/images/icon_dislike.svg"  onClick="addRemoveLike(1)" alt="לא אהבתי"/>
+                                
+                            </div>
+                            <div class="like-btn soft-scale-icon" >
+                                <h5 id="randomNumber-2">0</h5>
+                                <img role="button" src="/images/icon_like.svg" onClick="addRemoveLike(2)" alt="אהבתי"/>        
+                            </div>
+                            <div class="num-views">
+                                <h5>צפיות</h5>
+                                <h5 id="randomNumber-3">0</h5>
+                                
+                            </div>                           
+                            </div>
+                    </section>
+
+                    <section>
+                        <h6 aria-label="תגיות">
+                            #RunData
+                        </h6>
+                        <h2>סכום השגיאות בריבוע - מדד ה-SSE</h2>
+                        <div>
+                           <img src="images/btn_download_blue.svg" alt="" > 
+                           <a href="Hello.pdf">לשימושכם, תוכן הסרטון מאורגן גם בקובץ PDF</a>
+                        </div>
+                        <div class="btn-link">
+                            <button href="#" class="demo-from-video">קישור להדגמה מהסרטון</button>
+                        </div>
+                    </section>
+
+                    <section class="comments">
+                        <h3>כדאי לדעת:</h3>
+                      
+                            <div class="one-comment">
+                                
+                                <img src="images/profile_ran.png" class="profile-image" alt="תמונת פרופיל"/>
+                                            
+                                <div class="comment">
+                                    <div class="text-comment">
+                                        <span class="name">יוסי פטריוטי</span>
+                                        <p class="text">
+                                        לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית סחטיר בלובק. תצטנפל בלינדו למרקל אס לכימפו, דול, צוט ומעיוט - לפתיעם ברשג - ולתיעם גדדיש. קוויז דומור ליאמום בלינך רוגצה. לפמעט מוסן מנת. קולורס מונפרד אדנדום 
+                                        </p>
+                                        <span role="button" class="more" id="more-1" onclick="moreText(1)">עוד...</span>
+                                        <p class="more-text" id="more-text-1">
+                                            לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית סחטיר בלובק. תצטנפל בלינדו למרקל אס לכימפו, דול, צוט ומעיוט - לפתיעם ברש
+                                            <span role="button" class="less" id="less-1" onclick="lessText(1)">הסתר</span>
+                                        </p>
+                                        
+                                    </div>
+                                    <div class="buttons-comment" >
+                                        <div class="like-btn soft-scale-icon" >
+                                            <img role="button" src="/images/icon_dislike.svg" onClick="addRemoveLike(4)"alt="אהבתי"/></a>
+                                            <h5 id="randomNumber-4">0</h5>
+                                        </div>
+                                        <div class="like-btn soft-scale-icon">
+                                            <img role="button" src="/images/icon_like.svg" onClick="addRemoveLike(5)"alt="לא אהבתי"/></=>
+                                            <h5 id="randomNumber-5">0</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                            <div class="one-comment">
+                                <img src="images/profile_ran-1.png" class="profile-image" alt="תמונת פרופיל"/>
+                                <div class="comment">
+                                    <div class="text-comment">
+                                        <span class="name">מאור מטאור</span>
+                                        <p class="text">
+                                        לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית סחטיר בלובק. תצטנפל בלינדו למרקל אס לכימפו, דול, צוט ומעיוט - לפתיעם ברשג - ולתיעם גדדיש. קוויז דומור ליאמום בלינך רוגצה. לפמעט מוסן מנת. קולורס מונפרד אדנדום 
+                                        </p>
+                                        <span role="button" class="more" id="more-2" onclick="moreText(2)">עוד...</span>
+                                        <p class="more-text" id="more-text-2">
+                                            לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית סחטיר בלובק. תצטנפל בלינדו למרקל אס לכימפו, דול, צוט ומעיוט - לפתיעם ברש
+                                            <span role="button" class="less" id="less-2" onclick="lessText(2)">הסתר</span>
+                                        </p>                                  
+                                    </div>
+                                    <div class="buttons-comment" >
+                                        <div class="like-btn soft-scale-icon">
+                                            <img role="button" src="/images/icon_dislike.svg" onClick="addRemoveLike(6)" alt="אהבתי"/>        
+                                            <h5 id="randomNumber-6">0</h5>
+
+                                        </div>
+                                        <div class="like-btn soft-scale-icon">
+                                            <img role="button" src="/images/icon_like.svg" onClick="addRemoveLike(7)" alt="לא אהבתי"/>
+                                            <h5 id="randomNumber-7">0</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="one-comment">
+                                <img src="images/profile_ran-2.png" class="profile-image"  alt="תמונת פרופיל"/>
+                                <div class="comment">
+                                    <div class="text-comment">
+                                        <span class="name">רינה מדינה</span>
+                                        <p class="text">
+                                        לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית סחטיר בלובק. תצטנפל בלינדו למרקל אס לכימפו, דול, צוט ומעיוט - לפתיעם ברשג - ולתיעם גדדיש. קוויז דומור ליאמום בלינך רוגצה. לפמעט מוסן מנת. קולורס מונפרד אדנדום 
+                                        </p>
+                                        <span role="button" class="more" id="more-3" onclick="moreText(3)">עוד...</span>
+                                        <p class="more-text" id="more-text-3">
+                                            לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית סחטיר בלובק. תצטנפל בלינדו למרקל אס לכימפו, דול, צוט ומעיוט - לפתיעם ברש
+                                            <span role="button" class="less" id="less-3" onclick="lessText(3)">הסתר</span>
+                                        </p>
+                                    </div>
+                                    <div class="buttons-comment" >
+                                        <div class="like-btn soft-scale-icon">
+                                            <img role="button" src="/images/icon_dislike.svg" onClick="addRemoveLike(8)" alt="אהבתי"/>
+                                            <h5 id="randomNumber-8">0</h5>
+                                        </div>
+                                        <div class="like-btn soft-scale-icon">
+                                            <img role="button" src="/images/icon_like.svg" onClick="addRemoveLike(9)" alt="לא אהבתי"/>
+                                            <h5 id="randomNumber-9">0</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="one-comment" id="level2">
+                                
+                                <img src="images/profile_dana.png" class="profile-image" alt="תמונת פרופיל"/>
+                                <div class="comment">
+                                    <div class="text-comment">
+                                        <span class="name">דנה לומדנה</span>
+                                        <p class="text">
+                                        לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית סחטיר בלובק. תצטנפל בלינדו למרקל אס לכימפו, דול, צוט ומעיוט - לפתיעם ברשג - ולתיעם גדדיש. קוויז דומור ליאמום בלינך רוגצה. לפמעט מוסן מנת. קולורס מונפרד אדנדום 
+                                        </p>
+                                        <span role="button" class="more" id="more-4" onclick="moreText(4)">עוד...</span>
+                                        <div id="code">
+                                            
+                                            <script>
+                                                document.getElementById("code").innerHTML = 
+                                                    '[ ]  artist_by_popularity = artists.sort_values(<br>' + 
+                                                    '&nbsp&nbsp&nbsp    [<span class="red">\'popularity\',\'followers\'</span>],<br>' + 
+                                                    '&nbsp&nbsp&nbsp    ascending=<span class="green">False</span><br>' + 
+                                                    ')'
+                                            </script>
+
+                                        </div>
+                                        <p class="more-text" id="more-text-4">
+                                            לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית סחטיר בלובק. תצטנפל בלינדו למרקל אס לכימפו, דול, צוט ומעיוט - לפתיעם ברש
+                                            <span role="button" class="less" id="less-4" onclick="lessText(4)">הסתר</span>
+                                        </p>                               
+                                     </div>
+                                    <div class="buttons-comment" >
+                                        <div class="like-btn soft-scale-icon">
+                                            <img role="button" src="/images/icon_dislike.svg" onClick="addRemoveLike(10)" alt="אהבתי"/>
+                                            <h5 id="randomNumber-10">0</h5>
+                                        </div>
+                                        <div class="like-btn soft-scale-icon">
+                                            <img role="button" src="/images/icon_like.svg" onClick="addRemoveLike(11)" alt="לא אהבתי"/>
+                                            <h5 id="randomNumber-11">0</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                      
+                    </section>
+                    <section>
+                        <div class="now-you">
+                            <h2>עכשיו אתם</h2>
+                            <p>גם לכם יש מה להגיד על זה? מה דעתכם על העניין המגניב הזה? כתבו לנו</p>
+                            <button class="btn-discussion">
+                               להצגת הדיון
+                            </button>
+                        </div>
+                    </section>
+
+                    <section  role="navigation">
+                    <div class="pages">
+                        <a href="#" role="button"><img src="/images/Polygon_34-2.svg" alt=""/><span>הקודם</span></a>
+                        <a href="#" role="button" alt=""><span>הבא</span><img src="/images/Polygon_34-1.svg"/></a>
+                    </div>
+                     <br>
+
+                        <img class="decor" src="images/decor_top.png" />
+                    </section>
+                    
+                </div>
+                 
+            </div>       
+        
+    </main>
+    <footer>
+
+    </footer>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>

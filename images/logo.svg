@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="212.715" height="101.951" viewBox="0 0 212.715 101.951">
+  <g id="logo" transform="translate(-1214 -184)">
+    <g id="Rectangle_192" data-name="Rectangle 192" transform="translate(1214 184)" fill="#fff" stroke="#aab6e5" stroke-width="1">
+      <rect width="212" height="101" stroke="none"/>
+      <rect x="0.5" y="0.5" width="211" height="100" fill="none"/>
+    </g>
+    <line id="Line_34" data-name="Line 34" x1="211" y1="100" transform="translate(1214.5 184.5)" fill="none" stroke="#aab6e5" stroke-width="1"/>
+    <line id="Line_35" data-name="Line 35" y1="101" x2="212" transform="translate(1214.5 184.5)" fill="none" stroke="#aab6e5" stroke-width="1"/>
+    <text id="לוגו" transform="translate(1335 242)" fill="#7c8fda" font-size="20" font-family="Assistant-Regular, Assistant"><tspan x="-25" y="0">לוגו</tspan></text>
+  </g>
+</svg>
